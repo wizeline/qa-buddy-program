@@ -11,17 +11,23 @@ Please fork this repository and follow the instructions listed below:
 * Configure Jenkins to build on demand
 * Set up Slack notifications one a new build is done
 * Implement BrowserStack for cross platform/browser testing
-* Create a Slides presentation describing your project, integration of tools, adventajes, disanvantages, structure and also include a diagram flow. 
+* Create a Slides presentation describing your project, integration of tools, adventages, disadvantages, structure and also include a diagram flow. 
 
 ## Front-end project
-* Init a npm project and install all required dependencies, (eg, framework, reporters).
+* Init a npm project and install all required dependencies (eg, framework, reporters).
 * Navigate to [Todoist](https://todoist.com/) and create an account, get familiar with the site since we are using it for the whole challenge.
+* Implement your code using Page Object Model
+### Fronted Automation Tasks:
+- [ ] Successful login. Define a test case that performs a successful login, using credentials stored preferably in a .env file
+- [ ] Unsuccessful login. Define multiple negative scenarios for login.
+- [ ] Create a new task. Create a new task and validate it was created correctly
+- [ ] Create 10 new task. Create 10 new task and validate they were created correctly. Task Names should be dynamical.
 
 
 ## Back-end project
 * Navigate to [Todoist API](https://developer.todoist.com)
 * Download [Postman](https://www.getpostman.com/)
-* Create a environment
+* Create an environment
 * Create a collection 
 
 ## References
