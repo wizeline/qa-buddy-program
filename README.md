@@ -1,34 +1,58 @@
-# qa-buddy-program
+# QA Buddy Program
 This repository is ment to be used as a checklist for the buddies and mentees in order to have a standard structure across all the projects.
 
 Please fork this repository and follow the instructions listed below:
 
 ## Goals
-* Implement Page Object Model with the of the Javascript based frameworks listed
+* Implement Page Object Model with the of the Javascript based frameworks listed for Frontend Automation
+* Document everything, add readme's, steps and how to's on each section.
 * Use best practices for element selectors
-* Use Eslint for static analysis and ensure code standards
-* Configure SonarQube (Optional)
+* Use Eslint for static analysis and assure code standards
+* Configure SonarQube 
+* Implement Backend Automation
 * Configure Jenkins to build on demand
 * Set up Slack notifications one a new build is done
 * Implement BrowserStack for cross platform/browser testing
 * Create a Slides presentation describing your project, integration of tools, adventages, disadvantages, structure and also include a diagram flow. 
 
 ## Front-end project
-* Init a npm project and install all required dependencies (eg, framework, reporters).
+* Initialize a new npm project and install all required dependencies.
 * Navigate to [Todoist](https://todoist.com/) and create an account, get familiar with the site since we are using it for the whole challenge.
 * Implement your code using Page Object Model
+
 ### Fronted Automation Tasks:
 - [ ] Successful login. Define a test case that performs a successful login, using credentials stored preferably in a .env file
 - [ ] Unsuccessful login. Define multiple negative scenarios for login.
 - [ ] Create a new task. Create a new task and validate it was created correctly
-- [ ] Create 10 new task. Create 10 new task and validate they were created correctly. Task Names should be dynamical.
+- [ ] Create 10 new tasks. Create 10 new tasks and validate they were created correctly. Task Names should be dynamical.
 
 
 ## Back-end project
-* Navigate to [Todoist API](https://developer.todoist.com)
+* Navigate to [Todoist API](https://developer.todoist.com/rest/v1/)
 * Download [Postman](https://www.getpostman.com/)
-* Create an environment
-* Create a collection 
+* Define a new collection and a new environment for your variables
+
+### Backend Automation Tasks:
+1. Get your authorization token and save it as an environment variable
+2. Create a new folder inside your collection for projects and another one for tasks. 
+3. Create the following endpoints and its corresponding Tests: status codes, content, json schema,response time, etc.    
+  a) Projects
+    * Get all projects
+    * Create a new project
+    * Get a project
+    * Update a project
+    * Delete a project
+
+    b) Tasks:  
+   * Get active tasks  
+   * Create a new task  
+   * Get an active task  
+   * Update a task  
+   * Close a task  
+   * Reopen a task   
+   * Delete a task
+4. Create Negative scenarios for each endpoint
+5. Integrate [Newman](https://www.npmjs.com/package/newman), so you can run your tests from the command line 
 
 ## References
 Front-end Javascript based frameworks:
