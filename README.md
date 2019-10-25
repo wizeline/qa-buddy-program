@@ -54,6 +54,17 @@ Please fork this repository and follow the instructions listed below:
 4. Create Negative scenarios for each endpoint
 5. Integrate [Newman](https://www.npmjs.com/package/newman), so you can run your tests from the command line 
 
+### How to choose a Frontend Framework?
+
+  A useful, short and happy guide to help you choose between some open source frameworks based on JS.
+   * What? 
+   * Why?
+   * How?
+
+  https://docs.google.com/document/d/1TdCpuQ5ZsCOB9NDBkg1LApez7ob_6BykKwfi1H63Di4/edit?usp=sharing
+  PS: the document include links to POC's for the frameworks tacled on the reading.
+
+
 ## References
 Front-end Javascript based frameworks:
 * [Testcafe](https://devexpress.github.io/testcafe/)
