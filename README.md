@@ -62,7 +62,8 @@ Please fork this repository and follow the instructions listed below:
    * How?
 
   https://docs.google.com/document/d/1TdCpuQ5ZsCOB9NDBkg1LApez7ob_6BykKwfi1H63Di4/edit?usp=sharing
-  PS: the document include links to POC's for the frameworks tacled on the reading.
+ 
+ PS: the document include links to POC's for the frameworks tacled on the reading.
 
 
 ## References
@@ -70,6 +71,7 @@ Front-end Javascript based frameworks:
 * [Testcafe](https://devexpress.github.io/testcafe/)
 * [Nightwatch](https://nightwatchjs.org/api)
 * [WebdriverIO](https://webdriver.io/)
+* [Protractor](https://www.protractortest.org/#/)
 
 Device farms:
 * [BrowserStack](https://www.browserstack.com/)
