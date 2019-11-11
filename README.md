@@ -65,6 +65,14 @@ Please fork this repository and follow the instructions listed below:
  
  PS: the document include links to POC's for the frameworks tacled on the reading.
 
+## Project's presentation
+The presentation is aimed to make the mentee to experiment a role play making a proposal with the client on a testing architecture, explaining What and Why was it designed that way.
+The presentation must contain at least thw following points:
+* QA process that is going to be followed.
+* Git workflow to be used.
+* Testing types and their benefits.
+* Listed used tools and why they were selected.
+* Diagram of the selected tools and their interactions.
 
 ## References
 Front-end Javascript based frameworks:
