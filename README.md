@@ -1,19 +1,20 @@
 # QA Buddy Program
 This repository is meant to be used as a checklist for the buddies and mentees in order to have a standard structure across all the projects.
 
-Please fork this repository and follow the instructions listed below:
+Please create a new repository and follow the instructions listed below:
 
 ## Goals
-* Implement Page Object Model with the of the Javascript based frameworks listed for Frontend Automation
-* Document everything, add readme's, steps and how to's on each section.
-* Use best practices for element selectors
-* Use Eslint for static analysis and assure code standards
-* Configure SonarQube 
-* Implement Backend Automation
-* Configure Jenkins to build on demand
-* Set up Slack notifications one a new build is done
-* Implement BrowserStack for cross platform/browser testing
-* Create a Slides presentation describing your project, integration of tools, adventages, disadvantages, structure and also include a diagram flow. 
+* Implement Page Object Model with the of the Javascript based frameworks listed for Frontend Automation.
+* Document everything, add readme describing the steps and how to's on each section.
+* Use best practices for element selectors.
+* Use Eslint for static analysis and assure code standards.
+* Configure SonarQube .
+* Implement Backend Automation.
+* Configure any of the described CI tools mentioned below to build on demand.
+* Set up Slack notifications once a new build is done.
+* Implement BrowserStack for cross platform/browser testing.(Ask your buddy for BS credentials or contact eduardo.contreras)
+* Create a Slides presentation describing your project, integration of tools, adventages, disadvantages, structure and also include a diagram flow.
+
 
 ## Frontend project
 * Initialize a new npm project and install all required dependencies.
