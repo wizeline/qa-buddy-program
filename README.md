@@ -1,5 +1,5 @@
 # QA Buddy Program
-This repository is ment to be used as a checklist for the buddies and mentees in order to have a standard structure across all the projects.
+This repository is meant to be used as a checklist for the buddies and mentees in order to have a standard structure across all the projects.
 
 Please fork this repository and follow the instructions listed below:
 
@@ -15,7 +15,7 @@ Please fork this repository and follow the instructions listed below:
 * Implement BrowserStack for cross platform/browser testing
 * Create a Slides presentation describing your project, integration of tools, adventages, disadvantages, structure and also include a diagram flow. 
 
-## Front-end project
+## Frontend project
 * Initialize a new npm project and install all required dependencies.
 * Navigate to [Todoist](https://todoist.com/) and create an account, get familiar with the site since we are using it for the whole challenge.
 * Implement your code using Page Object Model
@@ -24,10 +24,10 @@ Please fork this repository and follow the instructions listed below:
 - [ ] Successful login. Define a test case that performs a successful login, using credentials stored preferably in a .env file
 - [ ] Unsuccessful login. Define multiple negative scenarios for login.
 - [ ] Create a new task. Create a new task and validate it was created correctly
-- [ ] Create 10 new tasks. Create 10 new tasks and validate they were created correctly. Task Names should be dynamical.
+- [ ] Create 10 new tasks. Create 10 new tasks and validate they were created correctly. Task Names should be dynamic.
 
 
-## Back-end project
+## Backend project
 * Navigate to [Todoist API](https://developer.todoist.com/rest/v1/)
 * Download [Postman](https://www.getpostman.com/)
 * Define a new collection and a new environment for your variables
@@ -63,7 +63,7 @@ Please fork this repository and follow the instructions listed below:
 
   https://docs.google.com/document/d/1TdCpuQ5ZsCOB9NDBkg1LApez7ob_6BykKwfi1H63Di4/edit?usp=sharing
  
- PS: the document include links to POC's for the frameworks tacled on the reading.
+ PS: the document include links to POC's for the frameworks tackled on the reading.
 
 ## Project's presentation
 The presentation is aimed to make the mentee to experiment a role play making a proposal with the client on a testing architecture, explaining What and Why was it designed that way.
@@ -75,7 +75,7 @@ The presentation must contain at least thw following points:
 * Diagram of the selected tools and their interactions.
 
 ## References
-Front-end Javascript based frameworks:
+Frontend Javascript based frameworks:
 * [Testcafe](https://devexpress.github.io/testcafe/)
 * [Nightwatch](https://nightwatchjs.org/api)
 * [WebdriverIO](https://webdriver.io/)
