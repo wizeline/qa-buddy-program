@@ -1,7 +1,7 @@
 # QA Buddy Program
 This repository is meant to be used as a checklist for the buddies and mentees in order to have a standard structure across all the projects.
 
-Please create a new repository and follow the instructions listed below:
+Please create a new repository inside the Wizeline's Organization and follow the instructions listed below:
 
 ## Goals
 * Implement Page Object Model with the of the Javascript based frameworks listed for Frontend Automation.
@@ -102,3 +102,6 @@ Reporter:
 Backend:
 * [Postman](https://www.getpostman.com/)
 * [Newman](https://www.npmjs.com/package/newman)
+
+Test Strategies:
+* [Test Plan](https://sites.google.com/wizeline.com/wizelineqa/home)
