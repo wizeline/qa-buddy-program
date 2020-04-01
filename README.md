@@ -75,9 +75,46 @@ The presentation must contain at least thw following points:
 * Listed used tools and why they were selected.
 * Diagram of the selected tools and their interactions.
 
+## Frontend Project Stage 2:
+#### Note: Available only after completing all the previous work mentioned above.
+
+### Frontend Challenge Stage 2 will try to cover as much of the following:
+
+#### Tasks
+* Create a New Tas
+  * Type a due date
+  * Select Today as due date
+  * Select Tomorrow as due date
+  * Select Next Week as due date
+  * Select No Date
+  * Select a specific day in the calendar
+  * Add a specific hour to be completed
+  * Update Time Zone
+  * Select a specific project while creating a new task
+  * Set priority for a new Task
+* Create N Number of Tasks
+* Create N number of Sub Tasks
+* Create Task Above
+* Create Task Below
+* Edit Task
+* Drag and Drop Task
+
+#### Projects
+* Create a New Project
+  * Select project color
+  * Add to Favorites (on/off)
+* Enter to a Project
+  * Add a Section
+  * Create N number of Tasks inside a new section
+  * Sort Tasks by Name
+  * Sort Tasks by Priority
+  * Sort Tasks by Date
+  * Show Completed Tasks
+
 ## References
 Frontend Javascript based frameworks:
 * [Testcafe](https://devexpress.github.io/testcafe/)
+* [Cypress](https://www.cypress.io/)
 * [Nightwatch](https://nightwatchjs.org/api)
 * [WebdriverIO](https://webdriver.io/)
 * [Protractor](https://www.protractortest.org/#/)
