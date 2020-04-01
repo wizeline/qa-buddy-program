@@ -4,7 +4,7 @@ This repository is meant to be used as a checklist for the buddies and mentees i
 Please create a new repository inside the Wizeline's Organization and follow the instructions listed below:
 
 ## Goals
-* Implement Page Object Model with the of the Javascript based frameworks listed for Frontend Automation.
+* Implement Page Object Model with one of the Javascript based frameworks listed for Frontend Automation.
 * Document everything, add readme describing the steps and how to's on each section.
 * Use best practices for element selectors.
 * Use Eslint for static analysis and assure code standards.
@@ -81,7 +81,7 @@ The presentation must contain at least thw following points:
 ### Frontend Challenge Stage 2 will try to cover as much of the following:
 
 #### Tasks
-* Create a New Tas
+* Create a New Task
   * Type a due date
   * Select Today as due date
   * Select Tomorrow as due date
