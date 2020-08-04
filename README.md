@@ -53,7 +53,12 @@ Please create a new repository inside the Wizeline's Organization and follow the
    * Reopen a task   
    * Delete a task
 4. Create Negative scenarios for each endpoint
-5. Integrate [Newman](https://www.npmjs.com/package/newman), so you can run your tests from the command line 
+5. Integrate one framework for API Test Automation i.e.
+  *[Newman](https://www.npmjs.com/package/newman)
+  *[Axios](https://github.com/axios/axios)
+  *[SuperTest](https://www.npmjs.com/package/supertest)
+  *[chai-http](https://www.chaijs.com/plugins/chai-http/)
+  So you can run your tests from the command line 
 
 ### How to choose a Frontend Framework?
 
@@ -111,6 +116,28 @@ The presentation must contain at least thw following points:
   * Sort Tasks by Date
   * Show Completed Tasks
 
+
+## Performace Testing Stage:
+#### Note: Available only after completing all the previous work mentioned above (Specially Backend Stage).
+
+### Performance Testing Stage will try to cover as much of the following:
+
+1. Setup a Performance Testing Tool that work along with your project i.e.
+  *[Artillery](https://artillery.io/)
+  *[K6](https://github.com/loadimpact/k6)
+2. Over the API Requests configured in Postman Collection (Headers, Payload, Authorization Token)
+  * Define a load phase that last at least 60 seconds with 50 new users per second
+  * Gather the metrics such as
+    * Min Latency Time
+    * Max Latency Time
+    * Error rate
+    * Success rate
+ 3.  Repeat the step 2 but now with 75 new users per second (Arrival Rate) and compare the metrics of two results. 
+
+ 4.  [Optional](You can connect to the DataDog API for check the graphcis of the tests metrics to monitor the behavior.)     
+
+
+
 ## References
 Frontend Javascript based frameworks:
 * [Testcafe](https://devexpress.github.io/testcafe/)
@@ -139,6 +166,11 @@ Reporter:
 Backend:
 * [Postman](https://www.getpostman.com/)
 * [Newman](https://www.npmjs.com/package/newman)
+* [Artillery](https://artillery.io/)
+* [K6](https://github.com/loadimpact/k6)
 
 Test Strategies:
 * [Test Plan](https://sites.google.com/wizeline.com/wizelineqa/home)
+
+Metrics Monitoring for Performance:
+*[DataDog](https://www.datadoghq.com/)
