@@ -80,6 +80,10 @@ The presentation must contain at least thw following points:
 * Listed used tools and why they were selected.
 * Diagram of the selected tools and their interactions.
 
+The following slides can be used as a template so the mentee has a general overview about how the presentation should look. However, the final presentation is not restricted to contain only the structure provided there. It is expected that the mentee proposes the narrative and information that needs to be presented.
+
+* [Template](https://docs.google.com/presentation/d/1BP7S7dtIsJL9HrXRKy5YhxWi74N8LicCByP2MTCTepw/edit?ts=609afddb#slide=id.gcaaa55f3fe_0_39)
+
 ## Frontend Project Stage 2:
 #### Note: Available only after completing all the previous work mentioned above.
 
