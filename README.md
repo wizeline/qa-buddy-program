@@ -15,6 +15,37 @@
 ## **Introduction**
 This repository is meant to be used as a checklist for the buddies and mentees in order to have a standard structure across all the projects.
 
+## **Getting Started**
+* As a starter point it is recommended to install [Homebrew](https://brew.sh/) to help you with the tool installation process.
+* Also, we require to download and install [node](https://nodejs.org/en/download/).
+
+    To see if Node is installed, type in `node -v` Terminal.
+
+    To see if NPM is installed, type in `npm -v` Terminal.
+
+*  You need to create a env file the .zshrc file (in case there is no .zshrc file refer to [FAQ](#faq) section.):
+
+    ```bash
+    open -e ~/.zshrc
+    ```
+
+* Configure your terminal to increase your productivity. You can use the following post as a [suggestion](https://ivanaugustobd.medium.com/your-terminal-can-be-much-much-more-productive-5256424658e8).
+
+## **Tech Stack**
+As a suggestion for an IDE:
+
+- [VSCode](https://code.visualstudio.com/)
+- [Atom](https://atom.io/)
+- [WebStorm](https://www.jetbrains.com/webstorm/)
+- [IntelliJ IDEA](https://www.jetbrains.com/idea/)
+## **Frontend Project**
+1. Initialize a new npm project and install all required dependencies.
+2. Navigate to [Todoist](https://todoist.com/) and create an account, get familiar with the site since we are using it for the whole challenge.
+3. Implement your code using Page Object Model.
+4. Use any of the recommended frameworks from the [references](#references) section.
+
+> Note: We strongly suggest to use a new framework to grain experience and expend your knowledge on new automation tools.
+
 Please create a new repository inside the Wizeline's Organization and follow the instructions listed below:
 ## **Goals**
 - Implement a design pattern and structured folders for frontend automation.
@@ -51,36 +82,6 @@ Please create a new repository inside the Wizeline's Organization and follow the
 
 >Note: Remember to generate your [Onboarding](https://docs.google.com/spreadsheets/d/1D6KpKeOgf80cQcmw2iOkWNwXv9UYA4hFhUm9Dr97Uhk/edit#gid=0) sheet file for a visual tracking of your process.
 
-## **Getting Started**
-* As a starter point it is recommended to install [Homebrew](https://brew.sh/) to help you with the tool installation process.
-* Also, we require to download and install [node](https://nodejs.org/en/download/).
-
-    To see if Node is installed, type in `node -v` Terminal.
-
-    To see if NPM is installed, type in `npm -v` Terminal.
-
-*  You need to create a env file the .zshrc file (in case there is no .zshrc file refer to [FAQ](#faq) section.):
-
-    ```bash
-    open -e ~/.zshrc
-    ```
-
-* Configure your terminal to increase your productivity. You can use the following post as a [suggestion](https://ivanaugustobd.medium.com/your-terminal-can-be-much-much-more-productive-5256424658e8).
-
-## **Tech Stack**
-As a suggestion for an IDE:
-
-- [VSCode](https://code.visualstudio.com/)
-- [Atom](https://atom.io/)
-- [WebStorm](https://www.jetbrains.com/webstorm/)
-- [IntelliJ IDEA](https://www.jetbrains.com/idea/)
-## **Frontend Project**
-1. Initialize a new npm project and install all required dependencies.
-2. Navigate to [Todoist](https://todoist.com/) and create an account, get familiar with the site since we are using it for the whole challenge.
-3. Implement your code using Page Object Model.
-4. Use any of the recommended frameworks from the [references](#references) section.
-
-> Note: We strongly suggest to use a new framework to grain experience and expend your knowledge on new automation tools.
 
 ### Fronted Automation Tasks:
 - Successful login.
