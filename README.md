@@ -183,7 +183,7 @@ Backend:
 * [Axios](https://github.com/axios/axios)
 
 Test Strategies:
-* [Test Plan](https://sites.google.com/wizeline.com/wizelineqa/home)
+* [Test Plan](https://sites.google.com/wizeline.com/wizelineqa/qa-resources/what-we-do)
 
 Metrics Monitoring for Performance:
 * [DataDog](https://www.datadoghq.com/)
